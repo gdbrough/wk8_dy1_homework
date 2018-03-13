@@ -40,6 +40,8 @@ public class Runner {
 
         List<Motorcycle> MotorcylesOfPerson1 = DBHelper.getMotorcycles(person1.getId());
 
+        List<Person> People = DBHelper.getAll("Person");
+
     }
 
 }
